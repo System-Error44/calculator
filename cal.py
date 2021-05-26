@@ -51,6 +51,7 @@ if i=="1":
     print ("")
     print (w+z)
     print ("")
+    g = raw_input('Press Enter To Back')
     os.system('python2 cal.py')
 elif i=="2":
     sub = v1-v2
@@ -60,6 +61,7 @@ elif i=="2":
     print ("Your Answer is = ", (sub))
     print("")
     print (w+z)
+    g = raw_input('Press Enter To Back')
     os.system('python2 cal.py')
 elif i=="3":
     dev = v1/v2
@@ -69,6 +71,7 @@ elif i=="3":
     print ("Your Answer is = ", (dev))
     print ("")
     print(w+z)
+    g = raw_input('Press Enter To Back')
     os.system('python2 cal.py')
 elif i=="4":
     mul = v1*v2
@@ -78,6 +81,7 @@ elif i=="4":
     print ("Your Answer is = ", (mul))
     print("")
     print(w+z)
+    g = raw_input('Press Enter To Back')
     os.system('python2 cal.py')
 else:
     print (r+"Wrong Input"+w)
